@@ -1,6 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* min size is 200 and max is 1fr on all screen sizes */
   grid-template-rows: 1fr;
   gap: 20px;
 }
